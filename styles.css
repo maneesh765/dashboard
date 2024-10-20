@@ -1,0 +1,258 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: poppins;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 82%;
+    height: 100px;
+    background-color: white;
+    float: right;
+    border-radius: 20px;
+}
+header h1{
+    padding-left: 30px;
+}
+aside{
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    list-style-type: none;
+    width: 17%;
+    min-height: 790px;
+    position: fixed;
+}
+.div2{
+    padding-right: 50px;
+    font-size: 25px;
+    font-weight: 20px;
+}
+.div3{
+    padding: 50px;
+    width: 150px;
+    height: 90px;
+}
+.div4{
+    width: 150px;
+    height: 5px;
+    padding-left: 50px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.div4 a{
+    color: black;
+    text-decoration: none;
+}
+.div3 a:hover{
+    color: orange;
+}
+.bookmark{
+    background-color: rgb(243, 20, 20);
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.div5{
+    padding-top: 500px;
+    padding-left: 100px;  
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    align-items: center;
+    width: 70%;
+    height: 200px;
+    background-color: lightblue;
+    float: right;
+    padding-top: 40px;
+    padding-right: 7%;
+}
+.container1{
+    width: 30%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding-left: 30px;
+}
+.box1{
+    text-align: center;
+}
+.box1 h2{
+    color: black;
+}
+.box2 h2{
+    color: black;
+}
+.box3 h2{
+    color: black;
+}
+.bold1{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.bold2{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.bold3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: green;
+}
+.bold4{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+.container2{
+    width: 30%;
+    height: 250px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+.container3 h2{
+    color: black;
+}
+.box2{
+    text-align: center;
+}
+.box22{
+    text-align: center;
+    background-color: rgb(27, 27, 65);
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+    height: 165px;
+}
+.container3{
+    width: 30%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding-left: 30px;
+    color: black;
+}
+.box3{
+    text-align: center;
+}
+.fa-2x::before{
+    font-size: 2em;
+
+}
+.dashboard{
+    width: 82%;
+    height: 400px;
+    margin-top: 50px;
+    background-color: white;
+    /* margin: 10px 15px 10px 10px; */
+    float: right;
+    border-radius: 15px 15px;
+    overflow: hidden;
+    border: 1px solid ;
+}
+.box4{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+}
+.icon1{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+.icon2{
+    font-size: 30px;
+    color: orange;
+    font-weight: bolder;
+}
+.icon3{
+    font-size: 30px;
+    color: lightblue;
+    font-weight: bolder;
+    padding-right: 800px;
+}
+.box5{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    list-style-type: none;
+}
+.box6{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: auto;
+    height: inherit;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.box6 ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.box7{
+    background-color: rgb(243, 20, 20);
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.dashboard{
+    bottom: 50vh;
+}
+.classes{
+    width: 70%;
+    height: 1300px;
+}
+.class{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: white;
+    border: rgb(211, 201, 201) solid 2px;
+    margin: 10px;
+}
+.cl{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 20px;
+}
+h2{
+    color: rgb(255, 173, 22);
+}
+hr{
+    color: black;
+}
+.btn{
+    width: 100px;
+    height: 20px;
+    font-size: 15px;
+    align-items: center;
+    color: green;
+}
+
